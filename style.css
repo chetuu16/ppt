@@ -1,0 +1,117 @@
+body {
+    margin: 0 0;
+    background-color: #49beb7;
+    color: #facf5a;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    margin: 0 0;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+#infoContent {
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.btnSelDefault {
+    border-radius: 50%;
+    background: #49beb7;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.sel {
+    border-radius: 50%;
+    background: #ff5959;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.infoText {
+    margin: 0;
+    color: #facf5a;
+    transition: 0.5s;
+}
+
+.infoTextSel {
+    margin: 0;
+    color: #facf5a00;
+    transition: 0.5s;
+}
+
+#titleContainer {
+    background-color: #085f63;
+    text-align: center;
+}
+
+#selectImage {
+    padding: auto 10px;
+}
+
+#contentContainer {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+
+#generalContent {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+#gameContainer {
+    margin: 0 auto 50px auto;
+    border: 3px solid #085f63;
+    border-radius: 15px;
+}
+
+#divTopScore, #divBottomScore {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#divTopImage, #divBottomImage {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#btnRetry {
+    font-size: 2.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btnRetryDiv {
+    margin: 0 auto;
+    width: 512px;
+    text-align: center;
+    border: 3px solid #085f63;
+    border-radius: 10px;
+}
+
+#btnRetryDiv:hover {
+    background-color: #085f63;
+}
+
+.bannerShow {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.bannerHide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.2s, opacity 2s linear;
+}

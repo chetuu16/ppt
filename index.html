@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Author Jose Sanchis-->
+    <title>Pieda - Papel - Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="titleContainer">
+        <h1>
+            ¡Piedra - Papel - Tijeras!
+        </h1>
+    </div>
+
+    <div id="contentContainer">
+
+        <div id="generalContent">
+            <!-- INFO -->
+            <div id="infoContent">
+                <p id="infoText" style="margin: 0;">Esperando elección...</p>
+            </div>
+
+            <!-- Game-->
+            <div id="gameContainer">
+                <div id="divTopScore">
+                    <p style="margin: 0;">- <span id="topScore">0</span> -</p>
+                </div>
+                <div id="divTopImage">
+                    <img id="IAimg" src="./Images/1.png" alt="IAplayer">
+                </div>
+
+                <h2>VS</h2>
+
+                <div id="divBottomImage">
+                    <div id="selectImage">
+                        <img id="piedra" class="btnSelDefault" onclick="comprobarResultado('piedra')"
+                            src="./Images/1.png" alt="piedra">
+                        <img id="papel" class="btnSelDefault" onclick="comprobarResultado('papel')" src="./Images/2.png"
+                            alt="papel">
+                        <img id="tijeras" class="btnSelDefault" onclick="comprobarResultado('tijeras')"
+                            src="./Images/3.png" alt="tijeras">
+                    </div>
+                </div>
+                <div id="divBottomScore">
+                    <p style="margin: 0;">- <span id="bottomScore">0</span> -</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner Wins -->
+        <div id="btnRetryDiv" class="bannerHide">
+            <p id="btnRetry" style="margin: 0;" onclick="">Nueva partida</p>
+        </div>
+
+        <div id="socialContainer">
+            <!-- Botones para las redes sociales -->
+        </div>
+
+        <div>
+            <!-- Informacion y agradecimientos a los creadores de los iconos -->
+        </div>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "description": "Papel, piedra y tijeras",
+  "main": "funciones.js",
+  "scripts": {
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetuu16/ppt.git"
+  },
+  "author": "Jose Sanchis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetuu16/ppt/issues"
+  },
+  "homepage": "https://github.com/chetuu16/ppt#readme",
+  "dependencies": {}
+}
