@@ -17,5 +17,7 @@
     "url": "https://github.com/chetuu16/ppt/issues"
   },
   "homepage": "https://github.com/chetuu16/ppt#readme",
-  "dependencies": {}
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
