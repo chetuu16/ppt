@@ -206,3 +206,22 @@ btnRetry.onclick = function () {
 
     retry();
 }
+
+/* Boton información */
+const btnInfo = document.getElementById('btnInfo');
+const divInfo = document.getElementById('infoIcons');
+
+let infoAbierta = false;
+
+btnInfo.onclick = function () {
+    infoAbierta = !infoAbierta;
+
+    console.log(infoAbierta);
+    if (infoAbierta) {
+        //Escondemos información
+        divInfo.style.display = 'block';
+    } else {
+        //Mostramos información
+        divInfo.style.display = 'none';
+    }
+}

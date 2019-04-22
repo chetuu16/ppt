@@ -124,3 +124,28 @@ h2 {
     opacity: 0;
     transition: visibility 0s 0.2s, opacity 2s linear;
 }
+
+#btnInfo{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#btnInfo:hover{
+    background-color: #ff5959;
+    transition: 0.5s;
+}
+
+#infoIcons{
+    background-color: #085f63;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+}
