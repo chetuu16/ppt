@@ -1,3 +1,3 @@
-#PPT
-##(Piedra - Papel - Tijeras)
-###(Rock - Paper - Scissors)
+# PPT
+## (Piedra - Papel - Tijeras)
+### (Rock - Paper - Scissors)
