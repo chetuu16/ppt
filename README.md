@@ -1,6 +1,6 @@
 # PPT (Piedra - Papel - Tijeras)
 
-Pulsa para juegar a Piedra Papel Tijeras --> [Jugar!](https://josesanchis16.github.io/ppt)
+Pulsa para juegar a Piedra Papel Tijeras --> [Jugar!](https://josesanchis16.github.io/Piedra-Papel-Tijeras)
 
 ## Sobre el juego
 ### Para empezar:
