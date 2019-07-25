@@ -1,3 +1,3 @@
-[PPT]
-
-Play now on this page --> <a href="https://chetuu16.github.io/ppt/">Link!</a>
+#PPT
+##(Piedra - Papel - Tijeras)
+###(Rock - Paper - Scissors)
